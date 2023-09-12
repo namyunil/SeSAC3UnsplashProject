@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3206ED2AAFED5300EB8653 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206EC2AAFED5300EB8653 /* LoginViewController.swift */; };
+		9F3206EF2AAFF2F500EB8653 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206EE2AAFF2F500EB8653 /* Observable.swift */; };
+		9F3206F12AAFFDE900EB8653 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206F02AAFFDE900EB8653 /* SampleViewController.swift */; };
+		9F3206F32AB0015000EB8653 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206F22AB0015000EB8653 /* SampleViewModel.swift */; };
+		9F3206F52AB00E4300EB8653 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206F42AB00E4300EB8653 /* LoginViewModel.swift */; };
+		9F3206F82AB02A4F00EB8653 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206F72AB02A4F00EB8653 /* APIService.swift */; };
+		9F3206FA2AB02A5E00EB8653 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206F92AB02A5E00EB8653 /* Photo.swift */; };
+		9F3206FC2AB02B4900EB8653 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206FB2AB02B4900EB8653 /* PhotoViewController.swift */; };
+		9F3206FE2AB02DAA00EB8653 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3206FD2AB02DAA00EB8653 /* PhotoViewModel.swift */; };
 		9F820B3A2AAE9936003CB842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F820B392AAE9936003CB842 /* AppDelegate.swift */; };
 		9F820B3C2AAE9936003CB842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F820B3B2AAE9936003CB842 /* SceneDelegate.swift */; };
 		9F820B3E2AAE9936003CB842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F820B3D2AAE9936003CB842 /* ViewController.swift */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F3206EC2AAFED5300EB8653 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F3206EE2AAFF2F500EB8653 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		9F3206F02AAFFDE900EB8653 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		9F3206F22AB0015000EB8653 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		9F3206F42AB00E4300EB8653 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9F3206F72AB02A4F00EB8653 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9F3206F92AB02A5E00EB8653 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		9F3206FB2AB02B4900EB8653 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		9F3206FD2AB02DAA00EB8653 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 		9F820B362AAE9936003CB842 /* SeSAC3UnsplashProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC3UnsplashProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F820B392AAE9936003CB842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F820B3B2AAE9936003CB842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +70,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F3206EB2AAFED4600EB8653 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F3206F02AAFFDE900EB8653 /* SampleViewController.swift */,
+				9F3206F22AB0015000EB8653 /* SampleViewModel.swift */,
+				9F3206EE2AAFF2F500EB8653 /* Observable.swift */,
+				9F3206EC2AAFED5300EB8653 /* LoginViewController.swift */,
+				9F3206F42AB00E4300EB8653 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F3206F62AB02A4000EB8653 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				9F3206F92AB02A5E00EB8653 /* Photo.swift */,
+				9F3206F72AB02A4F00EB8653 /* APIService.swift */,
+				9F3206FB2AB02B4900EB8653 /* PhotoViewController.swift */,
+				9F3206FD2AB02DAA00EB8653 /* PhotoViewModel.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
 		9F820B2D2AAE9936003CB842 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +112,8 @@
 		9F820B382AAE9936003CB842 /* SeSAC3UnsplashProject */ = {
 			isa = PBXGroup;
 			children = (
+				9F3206F62AB02A4000EB8653 /* Photo */,
+				9F3206EB2AAFED4600EB8653 /* Login */,
 				9F820B392AAE9936003CB842 /* AppDelegate.swift */,
 				9F820B3B2AAE9936003CB842 /* SceneDelegate.swift */,
 				9F820B3D2AAE9936003CB842 /* ViewController.swift */,
@@ -163,7 +206,16 @@
 				9F820B5B2AAEBAB1003CB842 /* String+Extension.swift in Sources */,
 				9F820B3E2AAE9936003CB842 /* ViewController.swift in Sources */,
 				9F820B3A2AAE9936003CB842 /* AppDelegate.swift in Sources */,
+				9F3206ED2AAFED5300EB8653 /* LoginViewController.swift in Sources */,
+				9F3206EF2AAFF2F500EB8653 /* Observable.swift in Sources */,
+				9F3206FC2AB02B4900EB8653 /* PhotoViewController.swift in Sources */,
 				9F820B3C2AAE9936003CB842 /* SceneDelegate.swift in Sources */,
+				9F3206F82AB02A4F00EB8653 /* APIService.swift in Sources */,
+				9F3206FA2AB02A5E00EB8653 /* Photo.swift in Sources */,
+				9F3206F32AB0015000EB8653 /* SampleViewModel.swift in Sources */,
+				9F3206FE2AB02DAA00EB8653 /* PhotoViewModel.swift in Sources */,
+				9F3206F12AAFFDE900EB8653 /* SampleViewController.swift in Sources */,
+				9F3206F52AB00E4300EB8653 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
