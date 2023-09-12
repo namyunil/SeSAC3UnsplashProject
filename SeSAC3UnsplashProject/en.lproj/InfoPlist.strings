@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  SeSAC3UnsplashProject
+
+  Created by NAM on 2023/09/11.
+  
+*/
+
+//앱 이름, 앱 권한 등을 Localization..!
+
+//앱 권한
+"NSLocationWhenInUseUsageDescription" = "Location Please";
+
+//앱 이름
+"CFBundleDisplayName" = "SeSAC";
